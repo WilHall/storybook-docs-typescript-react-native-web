@@ -10,6 +10,7 @@
     "babel-plugin-module-resolver": "^3.2.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-native": "^0.61.2",
     "react-native-web": "^0.11.7",
     "react-scripts": "3.2.0",
     "typescript": "3.6.3"
@@ -42,6 +43,7 @@
     "@storybook/react": "^5.3.0-alpha.10",
     "@thoughtbot/eslint-config": "^0.1.0",
     "@thoughtbot/stylelint-config": "^1.1.0",
+    "@types/react-native": "^0.60.19",
     "@types/storybook__react": "^4.0.2",
     "babel-loader": "^8.0.6",
     "prettier": "^1.18.2",
@@ -51,5 +53,17 @@
     "storybook-host": "^5.1.0",
     "stylelint": "^11.0.0",
     "ts-loader": "^6.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

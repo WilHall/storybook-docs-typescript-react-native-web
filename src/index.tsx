@@ -1,10 +1,11 @@
-import React from 'react';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {AppRegistry} from 'react-native';
 
-AppRegistry.runApplication(<App />, {
+AppRegistry.registerComponent('App', () => App);
+
+AppRegistry.runApplication('App', {
   initialProps: {},
   rootTag: document.getElementById('root'),
 });
